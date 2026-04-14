@@ -47,6 +47,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        stall: {
+          DEFAULT: "hsl(var(--stall))",
+          foreground: "hsl(var(--stall-foreground))",
+        },
+        cart: {
+          DEFAULT: "hsl(var(--cart))",
+          foreground: "hsl(var(--cart-foreground))",
+        },
+        popup: {
+          DEFAULT: "hsl(var(--popup))",
+          foreground: "hsl(var(--popup-foreground))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
