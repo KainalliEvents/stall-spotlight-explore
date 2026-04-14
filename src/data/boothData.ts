@@ -20,45 +20,39 @@ export const boothTypeInfo: Record<BoothType, { label: string; size: string }> =
   popup: { label: "Pop-Up Setup", size: "8ft × 8ft" },
 };
 
-// All positions are percentages relative to the floorplan image.
-// Image natural size ~1456×819 based on the uploaded PNG.
 export const booths: Booth[] = [
-  // === Stalls S1–S5 (top row inside green area) ===
-  { id: "S1", label: "S1", type: "stall", size: "8ft × 8ft", status: "available", x: 39.5, y: 3.2, width: 3.8, height: 5.5 },
-  { id: "S2", label: "S2", type: "stall", size: "8ft × 8ft", status: "available", x: 43.5, y: 3.2, width: 3.8, height: 5.5 },
-  { id: "S3", label: "S3", type: "stall", size: "8ft × 8ft", status: "available", x: 47.5, y: 3.2, width: 3.8, height: 5.5 },
-  { id: "S4", label: "S4", type: "stall", size: "8ft × 8ft", status: "available", x: 51.5, y: 3.2, width: 3.8, height: 5.5 },
-  { id: "S5", label: "S5", type: "stall", size: "8ft × 8ft", status: "available", x: 55.5, y: 3.2, width: 3.8, height: 5.5 },
+  // S1–S5 top row
+  { id: "S1", label: "S1", type: "stall", size: "8ft × 8ft", status: "available", x: 29.9, y: 5.1, width: 2.9, height: 4.4 },
+  { id: "S2", label: "S2", type: "stall", size: "8ft × 8ft", status: "available", x: 33.1, y: 5.1, width: 2.9, height: 4.4 },
+  { id: "S3", label: "S3", type: "stall", size: "8ft × 8ft", status: "available", x: 36.2, y: 5.1, width: 2.9, height: 4.4 },
+  { id: "S4", label: "S4", type: "stall", size: "8ft × 8ft", status: "available", x: 39.3, y: 5.1, width: 2.9, height: 4.4 },
+  { id: "S5", label: "S5", type: "stall", size: "8ft × 8ft", status: "available", x: 42.4, y: 5.1, width: 2.9, height: 4.4 },
 
-  // === Stalls S6–S8 (right column inside green area) ===
-  { id: "S6", label: "S6", type: "stall", size: "8ft × 8ft", status: "available", x: 64.8, y: 12, width: 4, height: 5.8 },
-  { id: "S7", label: "S7", type: "stall", size: "8ft × 8ft", status: "available", x: 64.8, y: 18.5, width: 4, height: 5.8 },
-  { id: "S8", label: "S8", type: "stall", size: "8ft × 8ft", status: "available", x: 64.8, y: 25, width: 4, height: 5.8 },
+  // S6–S8 right column
+  { id: "S6", label: "S6", type: "stall", size: "8ft × 8ft", status: "available", x: 49.0, y: 18.1, width: 2.9, height: 4.6 },
+  { id: "S7", label: "S7", type: "stall", size: "8ft × 8ft", status: "available", x: 49.0, y: 23.4, width: 2.9, height: 4.6 },
+  { id: "S8", label: "S8", type: "stall", size: "8ft × 8ft", status: "available", x: 49.0, y: 28.8, width: 2.9, height: 4.6 },
 
-  // === Stalls S9–S11 (bottom-left area) ===
-  { id: "S9", label: "S9", type: "stall", size: "8ft × 8ft", status: "available", x: 26.5, y: 56, width: 5.5, height: 8.5 },
-  { id: "S10", label: "S10", type: "stall", size: "8ft × 8ft", status: "available", x: 26.5, y: 65, width: 5.5, height: 8.5 },
-  { id: "S11", label: "S11", type: "stall", size: "8ft × 8ft", status: "available", x: 26.5, y: 74, width: 5.5, height: 8.5 },
+  // S9–S11 bottom left
+  { id: "S9", label: "S9", type: "stall", size: "8ft × 8ft", status: "available", x: 18.2, y: 55.6, width: 4.2, height: 6.9 },
+  { id: "S10", label: "S10", type: "stall", size: "8ft × 8ft", status: "available", x: 18.2, y: 63.1, width: 4.2, height: 6.9 },
+  { id: "S11", label: "S11", type: "stall", size: "8ft × 8ft", status: "available", x: 18.2, y: 70.7, width: 4.2, height: 6.9 },
 
-  // === Pop-Up Setups 1–8 (2×4 grid, center of green area) ===
-  // Row 1: 1, 4
-  { id: "P1", label: "1", type: "popup", size: "8ft × 8ft", status: "available", x: 43, y: 15.5, width: 3, height: 5 },
-  { id: "P4", label: "4", type: "popup", size: "8ft × 8ft", status: "available", x: 46.2, y: 15.5, width: 3, height: 5 },
-  // Row 2: 3, 2
-  { id: "P3", label: "3", type: "popup", size: "8ft × 8ft", status: "available", x: 43, y: 20.8, width: 3, height: 5 },
-  { id: "P2", label: "2", type: "popup", size: "8ft × 8ft", status: "available", x: 46.2, y: 20.8, width: 3, height: 5 },
-  // Row 3: 5, 6
-  { id: "P5", label: "5", type: "popup", size: "8ft × 8ft", status: "available", x: 43, y: 27.5, width: 3, height: 5 },
-  { id: "P6", label: "6", type: "popup", size: "8ft × 8ft", status: "available", x: 46.2, y: 27.5, width: 3, height: 5 },
-  // Row 4: 7, 8
-  { id: "P7", label: "7", type: "popup", size: "8ft × 8ft", status: "available", x: 43, y: 32.8, width: 3, height: 5 },
-  { id: "P8", label: "8", type: "popup", size: "8ft × 8ft", status: "available", x: 46.2, y: 32.8, width: 3, height: 5 },
+  // Pop-ups 1–8
+  { id: "P1", label: "1", type: "popup", size: "8ft × 8ft", status: "available", x: 34.4, y: 19.9, width: 3.0, height: 4.8 },
+  { id: "P4", label: "4", type: "popup", size: "8ft × 8ft", status: "available", x: 37.7, y: 19.9, width: 3.0, height: 4.8 },
+  { id: "P3", label: "3", type: "popup", size: "8ft × 8ft", status: "available", x: 34.4, y: 25.3, width: 3.0, height: 4.8 },
+  { id: "P2", label: "2", type: "popup", size: "8ft × 8ft", status: "available", x: 37.7, y: 25.3, width: 3.0, height: 4.8 },
+  { id: "P5", label: "5", type: "popup", size: "8ft × 8ft", status: "available", x: 34.4, y: 32.3, width: 3.0, height: 4.8 },
+  { id: "P6", label: "6", type: "popup", size: "8ft × 8ft", status: "available", x: 37.7, y: 32.3, width: 3.0, height: 4.8 },
+  { id: "P7", label: "7", type: "popup", size: "8ft × 8ft", status: "available", x: 34.4, y: 37.7, width: 3.0, height: 4.8 },
+  { id: "P8", label: "8", type: "popup", size: "8ft × 8ft", status: "available", x: 37.7, y: 37.7, width: 3.0, height: 4.8 },
 
-  // === Carts C1–C6 (around the fountain, lower-center) ===
-  { id: "C1", label: "C1", type: "cart", size: "6ft × 3ft", status: "available", x: 42, y: 52, width: 3.2, height: 4.5 },
-  { id: "C2", label: "C2", type: "cart", size: "6ft × 3ft", status: "available", x: 38.5, y: 54, width: 3.2, height: 4.5 },
-  { id: "C3", label: "C3", type: "cart", size: "6ft × 3ft", status: "available", x: 35.5, y: 58, width: 3.2, height: 4.5 },
-  { id: "C4", label: "C4", type: "cart", size: "6ft × 3ft", status: "available", x: 35.5, y: 71, width: 3.2, height: 4.5 },
-  { id: "C5", label: "C5", type: "cart", size: "6ft × 3ft", status: "available", x: 38, y: 76, width: 3.2, height: 4.5 },
-  { id: "C6", label: "C6", type: "cart", size: "6ft × 3ft", status: "available", x: 41, y: 80, width: 3.2, height: 4.5 },
+  // Carts C1–C6 around fountain
+  { id: "C1", label: "C1", type: "cart", size: "6ft × 3ft", status: "available", x: 29.7, y: 53.2, width: 2.1, height: 3.7 },
+  { id: "C2", label: "C2", type: "cart", size: "6ft × 3ft", status: "available", x: 27.3, y: 55.6, width: 2.1, height: 3.7 },
+  { id: "C3", label: "C3", type: "cart", size: "6ft × 3ft", status: "available", x: 25.5, y: 59.3, width: 2.1, height: 3.7 },
+  { id: "C4", label: "C4", type: "cart", size: "6ft × 3ft", status: "available", x: 25.0, y: 68.1, width: 2.1, height: 3.7 },
+  { id: "C5", label: "C5", type: "cart", size: "6ft × 3ft", status: "available", x: 26.6, y: 71.8, width: 2.1, height: 3.7 },
+  { id: "C6", label: "C6", type: "cart", size: "6ft × 3ft", status: "available", x: 28.6, y: 75.0, width: 2.1, height: 3.7 },
 ];
