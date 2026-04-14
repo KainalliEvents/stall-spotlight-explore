@@ -1,4 +1,5 @@
 import InteractiveFloorplan from "@/components/InteractiveFloorplan";
+
 import FloorplanLegend from "@/components/FloorplanLegend";
 
 const Index = () => {
