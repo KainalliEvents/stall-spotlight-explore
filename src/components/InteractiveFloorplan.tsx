@@ -41,7 +41,7 @@ const InteractiveFloorplan = () => {
       {booths.map((booth) => (
         <div
           key={booth.id}
-          className={`absolute box-border cursor-pointer rounded-none border-2 transition-all duration-150 ${typeHoverColors[booth.type]} bg-transparent`}
+          className={`absolute box-border cursor-pointer rounded-none border-2 transition-all duration-150 flex items-center justify-center overflow-hidden ${booth.status === "available" ? typeHoverColors[booth.type] + " bg-transparent" : statusStyles[booth.status]}`}
           style={{
             left: `${booth.x}%`,
             top: `${booth.y}%`,
@@ -50,7 +50,13 @@ const InteractiveFloorplan = () => {
           }}
           onMouseEnter={(e) => handleMouseEnter(booth, e)}
           onMouseLeave={() => setHovered(null)}
-        />
+        >
+          {booth.vendor && (
+            <span className="text-[8px] leading-tight font-semibold text-foreground text-center px-0.5 truncate w-full pointer-events-none">
+              {booth.vendor}
+            </span>
+          )}
+        </div>
       ))}
 
       {hovered && <FloorplanTooltip booth={hovered} position={tooltipPos} />}
