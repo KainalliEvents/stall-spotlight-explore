@@ -22,11 +22,11 @@ export const boothTypeInfo: Record<BoothType, { label: string; size: string }> =
 
 export const booths: Booth[] = [
   // S1–S5 top row
-  { id: "S1", label: "S1", type: "stall", size: "8ft × 8ft", status: "available", x: 45.05, y: 6.94, width: 4.69, height: 7.40 },
-  { id: "S2", label: "S2", type: "stall", size: "8ft × 8ft", status: "available", x: 49.74, y: 6.94, width: 4.69, height: 7.40 },
-  { id: "S3", label: "S3", type: "stall", size: "8ft × 8ft", status: "available", x: 54.43, y: 6.94, width: 4.43, height: 7.40 },
-  { id: "S4", label: "S4", type: "stall", size: "8ft × 8ft", status: "available", x: 58.85, y: 6.94, width: 4.43, height: 7.40 },
-  { id: "S5", label: "S5", type: "stall", size: "8ft × 8ft", status: "available", x: 63.28, y: 6.94, width: 4.43, height: 7.40 },
+  { id: "S1", label: "S1", type: "stall", size: "8ft × 8ft", status: "available", x: 45.0, y: 7.22, width: 3.75, height: 5.83 },
+  { id: "S2", label: "S2", type: "stall", size: "8ft × 8ft", status: "available", x: 48.91, y: 7.22, width: 3.75, height: 5.83 },
+  { id: "S3", label: "S3", type: "stall", size: "8ft × 8ft", status: "available", x: 52.86, y: 7.13, width: 3.75, height: 5.83 },
+  { id: "S4", label: "S4", type: "stall", size: "8ft × 8ft", status: "available", x: 56.77, y: 7.13, width: 3.75, height: 5.83 },
+  { id: "S5", label: "S5", type: "stall", size: "8ft × 8ft", status: "available", x: 60.73, y: 7.13, width: 3.75, height: 5.83 },
 
   // S6–S8 right column
   { id: "S6", label: "S6", type: "stall", size: "8ft × 8ft", status: "available", x: 64.58, y: 18.98, width: 3.65, height: 5.09 },
@@ -49,10 +49,10 @@ export const booths: Booth[] = [
   { id: "P8", label: "8", type: "popup", size: "8ft × 8ft", status: "available", x: 50.52, y: 38.43, width: 2.60, height: 5.09 },
 
   // Carts C1–C6 around fountain
-  { id: "C1", label: "C1", type: "cart", size: "6ft × 3ft", status: "available", x: 42.19, y: 59.72, width: 3.13, height: 5.09 },
-  { id: "C2", label: "C2", type: "cart", size: "6ft × 3ft", status: "available", x: 39.32, y: 62.96, width: 3.13, height: 5.56 },
-  { id: "C3", label: "C3", type: "cart", size: "6ft × 3ft", status: "available", x: 36.98, y: 67.59, width: 3.13, height: 5.56 },
-  { id: "C4", label: "C4", type: "cart", size: "6ft × 3ft", status: "available", x: 36.98, y: 79.17, width: 3.13, height: 5.56 },
-  { id: "C5", label: "C5", type: "cart", size: "6ft × 3ft", status: "available", x: 39.32, y: 83.80, width: 3.13, height: 5.56 },
-  { id: "C6", label: "C6", type: "cart", size: "6ft × 3ft", status: "available", x: 42.19, y: 87.04, width: 3.13, height: 5.56 },
+  { id: "C1", label: "C1", type: "cart", size: "6ft × 3ft", status: "available", x: 42.66, y: 55.65, width: 4.43, height: 6.57 },
+  { id: "C2", label: "C2", type: "cart", size: "6ft × 3ft", status: "available", x: 38.54, y: 60.37, width: 4.27, height: 7.50 },
+  { id: "C3", label: "C3", type: "cart", size: "6ft × 3ft", status: "available", x: 35.36, y: 67.13, width: 3.91, height: 7.87 },
+  { id: "C4", label: "C4", type: "cart", size: "6ft × 3ft", status: "available", x: 35.36, y: 79.72, width: 4.06, height: 7.69 },
+  { id: "C5", label: "C5", type: "cart", size: "6ft × 3ft", status: "available", x: 38.49, y: 85.83, width: 4.43, height: 7.04 },
+  { id: "C6", label: "C6", type: "cart", size: "6ft × 3ft", status: "available", x: 42.34, y: 90.56, width: 4.17, height: 6.11 },
 ];
