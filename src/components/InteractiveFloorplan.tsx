@@ -8,6 +8,12 @@ const typeHoverColors: Record<string, string> = {
   popup: "hover:bg-popup/30 border-popup/50",
 };
 
+const statusStyles: Record<string, string> = {
+  available: "bg-transparent",
+  booked: "bg-destructive/40 border-destructive/70 hover:bg-destructive/50",
+  reserved: "bg-yellow-500/40 border-yellow-600/70 hover:bg-yellow-500/50",
+};
+
 const InteractiveFloorplan = () => {
   const [hovered, setHovered] = useState<Booth | null>(null);
   const [tooltipPos, setTooltipPos] = useState({ x: 0, y: 0 });
