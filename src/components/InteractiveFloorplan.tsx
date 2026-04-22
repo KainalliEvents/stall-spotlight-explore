@@ -35,7 +35,7 @@ const InteractiveFloorplan = () => {
       {booths.map((booth) => (
         <div
           key={booth.id}
-          className={`absolute cursor-pointer rounded-md border-2 transition-all duration-150 ${typeHoverColors[booth.type]} bg-transparent`}
+          className={`absolute box-border cursor-pointer rounded-none border-2 transition-all duration-150 ${typeHoverColors[booth.type]} bg-transparent`}
           style={{
             left: `${booth.x}%`,
             top: `${booth.y}%`,
