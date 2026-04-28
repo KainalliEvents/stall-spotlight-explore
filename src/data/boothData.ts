@@ -23,12 +23,12 @@ export const boothTypeInfo: Record<BoothType, { label: string; size: string }> =
 
 export const booths: Booth[] = [
   // S1–S5 top row
-  { id: "S1", label: "S1", type: "Treschic", size: "10ft × 10ft", status: "available", x: 45.0, y: 7.22, width: 3.75, height: 5.83 },
-  { id: "S2", label: "S2", type: "Simar Tuli", size: "10ft × 10ft", status: "available", x: 48.91, y: 7.22, width: 3.75, height: 5.83 },
-  { id: "S3", label: "S3", type: "Kahaani", size: "10ft × 10ft", status: "available", x: 52.86, y: 7.13, width: 3.75, height: 5.83 },
-  { id: "S4", label: "S4", type: "Fusion Gallery", size: "10ft × 10ft", status: "available", x: 56.77, y: 7.13, width: 3.75, height: 5.83 },
+  { id: "S1", label: "S1", type: "stall", size: "10ft × 10ft", status: "available", x: 45.0, y: 7.22, width: 3.75, height: 5.83 },
+  { id: "S2", label: "S2", type: "stall", size: "10ft × 10ft", status: "available", x: 48.91, y: 7.22, width: 3.75, height: 5.83 },
+  { id: "S3", label: "S3", type: "stall", size: "10ft × 10ft", status: "available", x: 52.86, y: 7.13, width: 3.75, height: 5.83 },
+  { id: "S4", label: "S4", type: "stall", size: "10ft × 10ft", status: "available", x: 56.77, y: 7.13, width: 3.75, height: 5.83 },
   { id: "S5", label: "S5", type: "stall", size: "10ft × 10ft", status: "available", x: 60.73, y: 7.13, width: 3.75, height: 5.83 },
-  { id: "S12", label: "S12", type: "Motley", size: "12ft × 4ft", status: "available", x: 31.83, y: 7.13, width: 10.4, height: 5.83 },
+  { id: "S12", label: "S12", type: "stall", size: "12ft × 4ft", status: "available", x: 31.83, y: 7.13, width: 10.4, height: 5.83 },
 
   // S6–S8 right column
   { id: "S6", label: "S6", type: "Sandookdi", size: "10ft × 10ft", status: "not available", x: 64.32, y: 18.43, width: 3.75, height: 5.83 },
