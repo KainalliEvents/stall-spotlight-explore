@@ -31,7 +31,7 @@ const InteractiveFloorplan = () => {
   return (
     <div ref={containerRef} className="relative w-full max-w-[1200px] mx-auto">
       <img
-        src="/images/floorplan.png"
+        src="/images/layout.png"
         alt="DLF Promenade Floor Plan"
         className="w-full h-auto block rounded-xl shadow-lg"
         draggable={false}
