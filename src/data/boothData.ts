@@ -22,21 +22,21 @@ export const boothTypeInfo: Record<BoothType, { label: string; size: string }> =
 
 export const booths: Booth[] = [
   // S1–S5 top row
-  { id: "S1", label: "S1", type: "stall", size: "8ft × 8ft", status: "available", x: 45.0, y: 7.22, width: 3.75, height: 5.83 },
-  { id: "S2", label: "S2", type: "stall", size: "8ft × 8ft", status: "available", x: 48.91, y: 7.22, width: 3.75, height: 5.83 },
-  { id: "S3", label: "S3", type: "stall", size: "8ft × 8ft", status: "available", x: 52.86, y: 7.13, width: 3.75, height: 5.83 },
-  { id: "S4", label: "S4", type: "stall", size: "8ft × 8ft", status: "available", x: 56.77, y: 7.13, width: 3.75, height: 5.83 },
-  { id: "S5", label: "S5", type: "stall", size: "8ft × 8ft", status: "available", x: 60.73, y: 7.13, width: 3.75, height: 5.83 },
+  { id: "S1", label: "S1", type: "stall", size: "10ft × 10ft", status: "available", x: 45.0, y: 7.22, width: 3.75, height: 5.83 },
+  { id: "S2", label: "S2", type: "stall", size: "10ft × 10ft", status: "available", x: 48.91, y: 7.22, width: 3.75, height: 5.83 },
+  { id: "S3", label: "S3", type: "stall", size: "10ft × 10ft", status: "available", x: 52.86, y: 7.13, width: 3.75, height: 5.83 },
+  { id: "S4", label: "S4", type: "stall", size: "10ft × 10ft", status: "available", x: 56.77, y: 7.13, width: 3.75, height: 5.83 },
+  { id: "S5", label: "S5", type: "stall", size: "10ft × 10ft", status: "available", x: 60.73, y: 7.13, width: 3.75, height: 5.83 },
 
   // S6–S8 right column
-  { id: "S6", label: "S6", type: "stall", size: "8ft × 8ft", status: "available", x: 64.32, y: 18.43, width: 3.75, height: 5.83 },
-  { id: "S7", label: "S7", type: "stall", size: "8ft × 8ft", status: "available", x: 64.32, y: 24.54, width: 3.75, height: 5.93 },
-  { id: "S8", label: "S8", type: "stall", size: "8ft × 8ft", status: "available", x: 64.32, y: 30.65, width: 3.75, height: 5.83 },
+  { id: "S6", label: "S6", type: "stall", size: "10ft × 10ft", status: "available", x: 64.32, y: 18.43, width: 3.75, height: 5.83 },
+  { id: "S7", label: "S7", type: "stall", size: "10ft × 10ft", status: "available", x: 64.32, y: 24.54, width: 3.75, height: 5.93 },
+  { id: "S8", label: "S8", type: "stall", size: "10ft × 10ft", status: "available", x: 64.32, y: 30.65, width: 3.75, height: 5.83 },
 
   // S9–S11 bottom left
-  { id: "S9", label: "S9", type: "stall", size: "8ft × 8ft", status: "available", x: 25.52, y: 65.19, width: 5.57, height: 9.17 },
-  { id: "S10", label: "S10", type: "stall", size: "8ft × 8ft", status: "available", x: 25.52, y: 75.09, width: 5.57, height: 8.61 },
-  { id: "S11", label: "S11", type: "stall", size: "8ft × 8ft", status: "available", x: 25.52, y: 84.63, width: 5.57, height: 8.98 },
+  { id: "S9", label: "S9", type: "stall", size: "10ft × 10ft", status: "available", x: 25.52, y: 65.19, width: 5.57, height: 9.17 },
+  { id: "S10", label: "S10", type: "stall", size: "10ft × 10ft", status: "available", x: 25.52, y: 75.09, width: 5.57, height: 8.61 },
+  { id: "S11", label: "S11", type: "stall", size: "10ft × 10ft", status: "available", x: 25.52, y: 84.63, width: 5.57, height: 8.98 },
 
   // Pop-ups 1–8 (center grid)
   { id: "P1", label: "1", type: "popup", size: "8ft × 8ft", status: "available", x: 47.14, y: 22.87, width: 3.07, height: 3.80 },
