@@ -27,7 +27,7 @@ export const booths: Booth[] = [
   { id: "S3", label: "S3", type: "stall", size: "10ft × 10ft", status: "available", x: 52.86, y: 7.13, width: 3.75, height: 5.83 },
   { id: "S4", label: "S4", type: "stall", size: "10ft × 10ft", status: "available", x: 56.77, y: 7.13, width: 3.75, height: 5.83 },
   { id: "S5", label: "S5", type: "stall", size: "10ft × 10ft", status: "available", x: 60.73, y: 7.13, width: 3.75, height: 5.83 },
-  { id: "S12", label: "S12", type: "stall", size: "12ft × 4ft", status: "available", x: 31.73, y: 7.13, width: 10.4, height: 5.83 },
+  { id: "S12", label: "S12", type: "stall", size: "12ft × 4ft", status: "available", x: 31.83, y: 7.13, width: 10.4, height: 5.83 },
 
   // S6–S8 right column
   { id: "S6", label: "S6", type: "stall", size: "10ft × 10ft", status: "available", x: 64.32, y: 18.43, width: 3.75, height: 5.83 },
