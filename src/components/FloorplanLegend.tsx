@@ -2,6 +2,7 @@ const items = [
   { color: "bg-stall", label: "10ft × 10ft Stall" },
   { color: "bg-cart", label: "6ft × 3ft Cart" },
   { color: "bg-popup", label: "8ft × 8ft Pop-Up Setup" },
+  { color: "bg-stall", label: "12ft × 4ft Stall" },
 ];
 
 const FloorplanLegend = () => (
