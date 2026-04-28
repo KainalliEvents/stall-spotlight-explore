@@ -15,9 +15,10 @@ export interface Booth {
 }
 
 export const boothTypeInfo: Record<BoothType, { label: string; size: string }> = {
-  stall: { label: "Stall", size: "8ft × 8ft" },
+  stall: { label: "Stall", size: "10ft × 10ft" },
   cart: { label: "Cart", size: "6ft × 3ft" },
   popup: { label: "Pop-Up Setup", size: "8ft × 8ft" },
+  stall: { label: "Stall", size: "12ft x 4ft" },
 };
 
 export const booths: Booth[] = [
