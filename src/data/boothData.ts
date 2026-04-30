@@ -28,7 +28,7 @@ export const booths: Booth[] = [
   { id: "S3", label: "Kahaani", type: "stall", size: "10ft × 10ft", status: "booked", x: 52.86, y: 7.13, width: 3.75, height: 5.83 },
   { id: "S4", label: "Fusion Gallery", type: "stall", size: "10ft × 10ft", status: "booked", x: 56.77, y: 7.13, width: 3.75, height: 5.83 },
   { id: "S5", label: "Vacant", type: "stall", size: "10ft × 10ft", status: "available", x: 60.73, y: 7.13, width: 3.75, height: 5.83 },
-  { id: "S12", label: "Motley", type: "stall", size: "12ft × 4ft", status: "booked", x: 32.2, y: 7.13, width: 10.4, height: 5.83 },
+  { id: "S12", label: "Motley", type: "stall", size: "12ft × 4ft", status: "booked", x: 32.4, y: 7.13, width: 10.4, height: 5.83 },
 
   // S6–S8 right column
   { id: "S6", label: "Sandookdi", type: "stall", size: "10ft × 10ft", status: "booked", x: 64.32, y: 18.43, width: 3.75, height: 5.83 },
@@ -42,13 +42,13 @@ export const booths: Booth[] = [
 
   // Pop-ups 1–8 (center grid)
   { id: "P1", label: "Satv Dairy", type: "popup", size: "8ft × 8ft", status: "booked", x: 47.14, y: 22.87, width: 3.07, height: 3.80 },
-  { id: "P2", label: "Sweet Child of Mine", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.42, y: 22.87, width: 3.18, height: 3.80 },
+  { id: "P2", label: "Sweet Child of Mine", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.48, y: 22.87, width: 3.18, height: 3.80 },
   { id: "P3", label: "MKK", type: "popup", size: "8ft × 8ft", status: "booked", x: 47.14, y: 27.04, width: 3.07, height: 4.54 },
-  { id: "P4", label: "Sweet Child of Mine", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.42, y: 27.04, width: 3.18, height: 4.54 },
+  { id: "P4", label: "Sweet Child of Mine", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.48, y: 27.04, width: 3.18, height: 4.54 },
   { id: "P5", label: "Kainalli", type: "popup", size: "8ft × 8ft", status: "booked", x: 47.14, y: 33.33, width: 3.18, height: 4.17 },
-  { id: "P6", label: "Kainalli", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.47, y: 33.33, width: 3.12, height: 4.17 },
+  { id: "P6", label: "Kainalli", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.47, y: 33.38, width: 3.12, height: 4.17 },
   { id: "P7", label: "Shop Raya", type: "popup", size: "8ft × 8ft", status: "booked", x: 47.14, y: 37.87, width: 3.18, height: 4.17 },
-  { id: "P8", label: "Toy Coach", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.47, y: 37.87, width: 3.12, height: 4.17 },
+  { id: "P8", label: "Toy Coach", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.47, y: 38., width: 3.12, height: 4.17 },
 
   // Carts C1–C6 around fountain
   { id: "C1", label: "Shaarde", type: "cart", size: "6ft × 3ft", status: "booked", x: 42.66, y: 55.65, width: 4.43, height: 6.57 },
