@@ -46,7 +46,7 @@ export const booths: Booth[] = [
   { id: "P3", label: "MKK", type: "popup", size: "8ft × 8ft", status: "booked", x: 47.14, y: 27.04, width: 3.07, height: 4.54 },
   { id: "P4", label: "Sweet Child of Mine", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.48, y: 27.04, width: 3.18, height: 4.54 },
   { id: "P5", label: "Kainalli", type: "popup", size: "8ft × 8ft", status: "booked", x: 47.14, y: 33.33, width: 3.18, height: 4.17 },
-  { id: "P6", label: "Kainalli", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.47, y: 33.38, width: 3.12, height: 4.17 },
+  { id: "P6", label: "Abhushan Banaras", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.47, y: 33.38, width: 3.12, height: 4.17 },
   { id: "P7", label: "Shop Raya", type: "popup", size: "8ft × 8ft", status: "booked", x: 47.14, y: 37.87, width: 3.18, height: 4.17 },
   { id: "P8", label: "Toy Coach", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.47, y: 38., width: 3.12, height: 4.17 },
 
