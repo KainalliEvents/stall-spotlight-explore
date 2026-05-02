@@ -51,8 +51,8 @@ export const booths: Booth[] = [
   { id: "P8", label: "Toy Coach", type: "popup", size: "8ft × 8ft", status: "booked", x: 50.47, y: 38., width: 3.12, height: 4.17 },
 
   // Carts C1–C6 around fountain
-  { id: "C1", label: "Shaarde", type: "cart", size: "6ft × 3ft", status: "booked", x: 42.66, y: 55.65, width: 4.43, height: 6.57 },
-  { id: "C2", label: "Vacant", type: "cart", size: "6ft × 3ft", status: "available", x: 38.54, y: 60.37, width: 4.27, height: 7.50 },
+  { id: "C1", label: "Designer Handicraft", type: "cart", size: "6ft × 3ft", status: "booked", x: 42.66, y: 55.65, width: 4.43, height: 6.57 },
+  { id: "C2", label: "Shaarde", type: "cart", size: "6ft × 3ft", status: "booked", x: 38.54, y: 60.37, width: 4.27, height: 7.50 },
   { id: "C3", label: "Vacant", type: "cart", size: "6ft × 3ft", status: "available", x: 35.36, y: 67.13, width: 3.91, height: 7.87 },
   { id: "C4", label: "Vacant", type: "cart", size: "6ft × 3ft", status: "available", x: 35.36, y: 79.72, width: 4.06, height: 7.69 },
   { id: "C5", label: "Vacant", type: "cart", size: "6ft × 3ft", status: "available", x: 38.49, y: 85.83, width: 4.43, height: 7.04 },
